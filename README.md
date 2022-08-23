@@ -5,6 +5,7 @@ This is a simple advice generator web app made with HTML, SCSS and Javascript, f
 
 It generates a new advice each time the button is clicked.
 
+<img src="./images/advice-generator-app.png">
 
 ## Try the app!
 
