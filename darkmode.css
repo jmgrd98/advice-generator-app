@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: var(--primaryColor);
+  background-color: var(--secondaryColor);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@ main {
   margin: 100px;
   width: 50%;
   height: 50vh;
-  background-color: var(--secondaryColor);
+  background-color: var(--primaryColor);
   border-radius: 20px;
   color: var(--terciaryColor);
   display: flex;
@@ -97,6 +97,6 @@ p {
 }
 
 .mode-btn:hover {
-  box-shadow: 2px 2px 2px 2px hsl(150deg, 100%, 66%);
+  box-shadow: 5px 2px 2px hsl(150deg, 100%, 66%);
   background-color: hsl(193deg, 38%, 86%);
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=darkmode.css.map */
