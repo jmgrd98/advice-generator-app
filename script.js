@@ -4,7 +4,7 @@ let advice = document.getElementById('advice') // Pegando o elemento que irá re
 let css = document.getElementById('css')
 let LightBtn = document.getElementById('light')
 let DarkBtn = document.getElementById('dark')
-// Função que gera a API através de um fetch
+// Função que gera o advice através de um fetch
 
 function generateAdvice(){
     fetch(url)
