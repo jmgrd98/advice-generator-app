@@ -29,6 +29,8 @@ function changeAdvice(){
     .then(data => {
         root.innerHTML = JSON.stringify(data.slip.advice)
         advice.innerHTML = `Advice #${data.slip.id}`
+
+        console.log(data.slip)
     })
     .catch(error => root.innerHTML = ('Error!'))
 }
