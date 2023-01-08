@@ -20,21 +20,6 @@ function generateAdvice(){
 
 generateAdvice()
 
-// Função que muda a frase toda vez que é clicado o botão
-// (a função é chamada na <button> do index.html através do evento onclick)
-
-function changeAdvice(){
-    fetch(url)
-    .then(response => response.json())
-    .then(data => {
-        root.innerHTML = JSON.stringify(data.slip.advice)
-        advice.innerHTML = `Advice #${data.slip.id}`
-
-        console.log(data.slip)
-    })
-    .catch(error => root.innerHTML = ('Error!'))
-}
-
 function changeToDarkMode(){
     css.setAttribute('href', 'darkmode.css')
 }
